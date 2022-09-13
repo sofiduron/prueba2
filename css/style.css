@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+body{
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	color: #000000;
+}
+
+h1{
+	font-family: 'Open Sans', sans-serif;
+	color: #000000;
+}
+
+h2{
+	padding: 30px;
+	font-weight: bold;
+	letter-spacing: -2px;
+	color: #000000;
+}
+
+#hero h2{
+	font-weight: 600;
+	letter-spacing: -2px;
+	color: #000000;
+}
+
+h3{
+	font-size: 20px;
+	padding: 30px;
+	font-weight: 700;
+}
+
+h4{
+	font-size: 21px;
+	font-weight: 600;
+}
+
+header{
+	background-color: transparent;
+	position: relative;
+	width: 100%;
+	padding: 10px 0;
+	border-bottom: 1px solid #eee;
+}
+
+#hero{
+	background-image: url("../img/home-header-bg.jpg");
+	background-size: cover;
+	background-position: top center;
+	min-height: 400px;
+	text-align: left;
+}
+
+#products{
+	text-align: center;
+	padding: 40px;
+}
+
+footer{
+	background-color: #f2f2f2;
+	border-top: 3px;
+	border-color: #494949;
+	padding: 100px;
+}
+
+footer p{
+	text-align: center;
+}
+
+.btn-masinfo{
+	text-transform: uppercase;
+	border: solid 1px;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	border-radius: 30px;
+	padding: 10px 30px;
+	color: #000000;
+}
+
+.list{
+	font-size: 20px;
+	text-decoration: none;
+	color: #000000;
+}
+
+.carousel-caption{
+	text-align: left;
+	align-content: center;
+}
